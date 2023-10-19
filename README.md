@@ -3,6 +3,8 @@
 ## Driver JDBC
 Ahora crearemos proyecto con Maeven
 
+Maeven es un gestor de librerías.
+
 <img width="368" alt="image" src="https://github.com/SergioABS0813/CLASE-IWEB-9/assets/134556600/1d87e2d9-ef59-453c-b402-9d578b4eab07">
 
 Creación de Proyecto Maeven
