@@ -144,4 +144,4 @@ Metodo para insertar una fila en la tabla JOB
 
 <img width="713" alt="image" src="https://github.com/SergioABS0813/CLASE-IWEB-9/assets/134556600/0a1b359f-7e9d-48b7-bf43-5dcbe18d6ffe">
 
-"executeUpdate" nos servirá para hacer un update a la tabla con los valores que insertemos desde JAVA. Además, retorna un entero.
+"executeUpdate" nos servirá para hacer un update a la tabla con los valores que insertemos desde JAVA. Además, no retorna nada.
