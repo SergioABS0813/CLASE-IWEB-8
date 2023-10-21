@@ -142,6 +142,33 @@ JobDao
 
 Metodo para insertar una fila en la tabla JOB
 
-<img width="713" alt="image" src="https://github.com/SergioABS0813/CLASE-IWEB-9/assets/134556600/0a1b359f-7e9d-48b7-bf43-5dcbe18d6ffe">
+<img width="739" alt="image" src="https://github.com/SergioABS0813/CLASE-IWEB-9/assets/134556600/a48f4af1-a8cc-48f1-9437-de9ec2cd71ec">
 
 "executeUpdate" nos servirá para hacer un update a la tabla con los valores que insertemos desde JAVA. Además, no retorna nada.
+
+OJO: A las variables tipo String las colocamos entre COMILLAS SIMPLES
+
+RESULTADO EN LA TABLA JOBS AL INSERTAR:
+
+<img width="596" alt="image" src="https://github.com/SergioABS0813/CLASE-IWEB-9/assets/134556600/cf01333c-6870-4a00-bc6a-7525dbc390d8">
+
+Usaremos el PREPARE STATEMENT para lineas de codigo en el que el usuario tenga ingreso de datos (DESCONFIAR DEL USUARIO)
+
+<img width="615" alt="image" src="https://github.com/SergioABS0813/CLASE-IWEB-9/assets/134556600/de9749e7-9871-42f5-96b2-973e3f4fb2b8">
+
+Cambios realizados para usar el PREPARE STATEMENT. Todo Query donde se inserta datos se hace con PREPARE STMT
+
+![image](https://github.com/SergioABS0813/CLASE-IWEB-9/assets/134556600/6b693882-4510-462a-8883-1cd40211e371)
+
+En nuestro ejemplo de Clase8. Los parámetros los seteamos y son los que se reemplazaron por "?".
+
+<img width="684" alt="image" src="https://github.com/SergioABS0813/CLASE-IWEB-9/assets/134556600/9bb0cdf2-651e-4963-91bf-a479fb8e6927">
+
+Aquí acaba cuando queremos insertar un nuevo empleado con algunos parámetros:
+
+<img width="669" alt="image" src="https://github.com/SergioABS0813/CLASE-IWEB-9/assets/134556600/092f6e8e-e1ca-4c05-a344-8c5559cc12b3">
+
+Sin embargo, si yo deseo el primer ID que se acaba de autocrear:
+
+<img width="623" alt="image" src="https://github.com/SergioABS0813/CLASE-IWEB-9/assets/134556600/3421cf94-4a35-459c-91c4-add7da04a2ab">
+
