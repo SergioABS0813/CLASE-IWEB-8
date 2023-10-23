@@ -1,4 +1,4 @@
-# CLASE9-IWEB-JDBC
+# CLASE-8-IWEB-JDBC
 
 ## Driver JDBC
 Ahora crearemos proyecto con Maeven
